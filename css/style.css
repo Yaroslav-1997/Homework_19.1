@@ -1,10 +1,5 @@
 /* #region header  */
-.header-wrapper {
-}
-.header {
-}
-.header__logo {
-}
+
 .header__nav {
   min-width: 12.5rem;
   max-width: 50%;
@@ -27,7 +22,7 @@
 }
 
 /* #endregion  */
-
+/* #region main  */
 .main-wrapper {
   font-family: Inter, sans-serif;
   margin-right: 15px;
@@ -59,6 +54,7 @@ h2 {
   font-weight: 500;
   line-height: 150%;
 }
+/* #endregion  */
 /* #region latest */
 .latest-container__header {
   display: flex;
@@ -103,6 +99,8 @@ h2 {
 }
 
 /* #endregion */
+
+/* #region featured  */
 
 .featured-grid {
   display: grid;
@@ -215,6 +213,10 @@ h2 {
   color: var(--TailGrids-Color, #3056d3);
 }
 
+/* #endregion  */
+
+/* #region latest  */
+
 @media (max-width: 1024px) and (min-width: 600px) {
   .latest-grid {
     grid-template-columns: repeat(2, minmax(270px, auto));
@@ -240,3 +242,4 @@ h2 {
     font-size: 15px;
   }
 }
+/* #endregion  */
